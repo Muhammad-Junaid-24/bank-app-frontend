@@ -16,7 +16,7 @@ function Navbar() {
             <li 
             key={nav.id}
             className={`font-poppins
-            font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:border-b hover:border-secondary
+            font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:text-secondary transition-colors duration-300
             `}
             >
               <a href={`#${nav.id}`}>
