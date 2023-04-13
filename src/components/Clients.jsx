@@ -3,7 +3,7 @@ import styles from "../style";
 
 function Clients() {
   return (
-    <section id="clients" className={`${styles.flexCenter} my-4`}>
+    <section className={`${styles.flexCenter} my-4`}>
       <div className={`${styles.flexCenter} flex-wrap w-full`}>
         {clients.map((client, index) => {
           return (

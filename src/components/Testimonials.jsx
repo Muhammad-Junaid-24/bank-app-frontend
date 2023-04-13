@@ -5,7 +5,7 @@ import Feedback from "../components/Feedback";
 function Testimonials() {
   return (
     <section
-      id="testimonials"
+      id="clients"
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
     >
       <div className="absolute z-0 w-3/5 h-3/5 -right-1/2 rounded-full blue__gradient"/>
